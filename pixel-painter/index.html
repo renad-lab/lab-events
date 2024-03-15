@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -13,8 +13,8 @@
         <header>
             <h1>Pixel Painter</h1>
         </header>
-        <div id="canvas-palette-wrapper"> <!-- Wrapper for canvas and palette -->
-            <main id="canvas"></main>
+        <!-- <div id="canvas-palette-wrapper"> Wrapper for canvas and palette -->
+            <!-- <main id="canvas"></main>
             <section id="palette">
                 <div class="color" style="background: black"></div>
                 <div class="color" style="background: red"></div>
@@ -25,8 +25,9 @@
                 <div class="color" style="background: purple"></div>
                 <div class="color" style="background: white"></div>
             </section>
-        </div>
+     
         <section id="current-color"></section>
+    </div>
     </div>
     <footer>
         <nav>
@@ -34,5 +35,34 @@
             <a href="../tic-tac-toe/index.html">Tic Tac Toe</a>
         </nav>
     </footer>
+</body>
+</html> --> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Painter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div>
+        <div id="guide"></div>
+        <canvas width="450" height="450" id="canvas"></canvas>
+    </div>
+    <div>
+        <label for="colorInput">Set Color:</label>
+        <input type="color" id="colorInput">
+    </div>
+    <div>
+        <label for="toggleGuide">Show Guide:</label>
+        <input type="checkbox" id="toggleGuide" checked>
+    </div>
+    <div>
+        <button type="button" id="clearButton">Clear</button>
+    </div>
 </body>
 </html>

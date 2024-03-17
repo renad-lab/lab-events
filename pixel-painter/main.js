@@ -37,7 +37,7 @@ const toggleGuide = document.getElementById("toggleGuide");
 const clearButton = document.getElementById("clearButton");
 const drawingContext = canvas.getContext("2d"); //drawingContext or ctx
 
-const CELL_SIDE_COUNT = 10;
+const CELL_SIDE_COUNT = 20;
 const cellPixelLength = canvas.width / CELL_SIDE_COUNT;
 const colorHistory = {};
 
